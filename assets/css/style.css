@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../images/circles-dark.png');
+    margin: auto;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.content {
+    margin: 0 auto;
+    position: relative;
+    max-width: 960px;
+    width: 100%;
+
+}
+p {
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+    font-family: 'Archivo Narrow', sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #4aaaa5;
+    padding-bottom: 5px;
+}
+h4 {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 2px solid #4aaaa5;
+}
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    background-color: #4aaaa5;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+#profile-pic {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+}
+.about-me {
+    clear: both;
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+    
+}
+.connect {
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+.logos {
+    text-align: center;
+
+}
+footer {
+
+    width: 100%;
+    text-align: center;
+    background-color: #ffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 4px solid #4aaaa5;
+}
+
+/* contact */
+#contact-input {
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+/* portfolio */
+#portfolio {
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.work {
+    text-align: center;
+}
+.work img {
+    width: 100%;
+    height: 150px;
+    margin: 0 none;
+}
+.work h5 {
+    color: white;
+    background-color: #4aaaa5;
+    width: 100%;
+    text-align: center;
+}
+
